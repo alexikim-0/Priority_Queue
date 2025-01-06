@@ -37,7 +37,6 @@ struct object_struct {
 	}
 };
 
-// You should not need to change this function.
 void loadWordsIntoTable(std::unordered_set<std::string> & words, std::istream & in)
 {
 	std::string line, word;

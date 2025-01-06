@@ -14,7 +14,6 @@ TEST_CASE("AntToArt", "[convert-public]")
 
  	std::vector< std::string > r  = convert("ant", "art", words);
 
- 	// this was a success if r was a valid conversion of length 2.
 	std::ifstream in2("words.txt");
  	REQUIRE(r.size() == 2);
  	REQUIRE(  validConversion(r, "ant", "art", in2) );
