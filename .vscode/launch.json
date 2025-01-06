@@ -1,0 +1,61 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "all-tests",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/bin/all-tests",
+            "args": [],
+            "environment": [],
+            "setupCommands": [
+              { "text": "-enable-pretty-printing", "description": "enable pretty printing", "ignoreFailures": true }
+            ],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "build"
+        },
+        {
+            "name": "pq_public",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/bin/pq_public",
+            "args": [],
+            "environment": [],
+            "setupCommands": [
+              { "text": "-enable-pretty-printing", "description": "enable pretty printing", "ignoreFailures": true }
+            ],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "build"
+        },
+        {
+          "name": "convert_public",
+          "type": "cppdbg",
+          "request": "launch",
+          "program": "${workspaceFolder}/build/bin/convert_public",
+          "args": [],
+          "environment": [],
+          "setupCommands": [
+            { "text": "-enable-pretty-printing", "description": "enable pretty printing", "ignoreFailures": true }
+          ],
+          "cwd": "${workspaceFolder}",
+          "preLaunchTask": "build"
+      },
+        {
+            "name": "custom",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/bin/custom",
+            "args": [],
+            "environment": [],
+            "setupCommands": [
+              { "text": "-enable-pretty-printing", "description": "enable pretty printing", "ignoreFailures": true }
+            ],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "build"
+        },
+          
+    ]
+  }
